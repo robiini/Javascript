@@ -1,3 +1,9 @@
+/* Se solicita desarrollar un programa en JavaScript que simule la compra de paletas de helado por parte de tres personas: Andrés, Pedro y Carla. 
+Cada persona ingresará la cantidad de dinero que posee y, según esta cantidad, el programa determinará qué tipo de paleta podrían adquirir de una lista determinada, 
+mostrando además cuánto dinero les sobraría después de la compra. El ejercicio pretende practicar el uso de condicionales (if-else if-else) 
+en JavaScript para tomar decisiones basadas en distintas cantidades de dinero ingresadas.*/
+
+
 dineroAndres = prompt("Cuanto dinero tienes Andres?");
 dineroPedro = prompt("Cuanto dinero tienes Pedro?");
 dineroCarla = prompt("Cuanto dinero tienes Carla?");

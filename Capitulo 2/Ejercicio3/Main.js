@@ -1,3 +1,8 @@
+/*se creará una calculadora simple que permite realizar operaciones matemáticas básicas. 
+Se implementarán cuatro funciones (sumar, restar, dividir y multiplicar) que ejecutarán operaciones según la elección del usuario. 
+El programa solicitará al usuario que seleccione una operación (suma, resta, división o multiplicación) mediante un número de identificación. 
+Luego, se pedirá el ingreso de dos números para realizar la operación seleccionada y se mostrará el resultado.*/ 
+
 const sumar = (num1, num2)=>{
     return parseInt(num1) + parseInt(num2);
 }

@@ -1,3 +1,8 @@
+/*se desarrollará un programa para validar el acceso de clientes a un evento basado en su edad y el horario en que desean ingresar. 
+Se utilizará una función llamada validarCliente que evaluará la edad del cliente y la hora en la que solicita entrar al evento. 
+Si el cliente es mayor de 18 años, se verificará si puede ingresar gratis entre ciertas horas determinadas. En caso contrario, 
+se le informará que es menor de edad y no podrá acceder al evento.*/ 
+
 let gratis = false;
 
 const validarCliente  = (time)=>{

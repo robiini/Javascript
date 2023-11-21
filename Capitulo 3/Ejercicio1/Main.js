@@ -1,3 +1,7 @@
+/*se implementarán clases en JavaScript para modelar celulares básicos y celulares de alta gama. 
+La clase Celular contendrá propiedades como color, peso, pantalla, cámara y memoria, mientras que la clase CelularAltaGama extenderá las 
+funcionalidades agregando una cámara extra y métodos especiales como grabar en cámara lenta y reconocimiento facial.*/
+
 class Celular{
     constructor(color, peso, pantalla, camara, memoria){
         this.color = color;
@@ -59,17 +63,6 @@ class CelularAltaGama extends Celular{
 
 }
 
-
-
-/*celular1 = new Celular("rojo", "150g", "5", "HD", "1GB")
-celular2 = new Celular("azul", "155g", "6", "full HD", "2GB")
-celular3 = new Celular("rojo", "170g", "7", "4K", "3GB")*/
-
-/*celular1.presionarBotonEncendido();
-celular1.tomarFotos();
-celular1.grabarVideo();
-celular1.reiniciar();
-celular1.presionarBotonEncendido();*/
 
 const celular1 = new CelularAltaGama("Azul", "130g", "5.2", "5K", "3GB", "Super Amoled")
 const celular2 = new CelularAltaGama("Nego", "120g", "8.2", "7K", "45GB", "Super Amoled")
